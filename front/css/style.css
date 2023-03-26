@@ -1,0 +1,158 @@
+* {
+    text-align: center;
+}
+
+Html {
+    font-size: 100%;
+}
+
+Body {
+    font-size: 0.75em;
+}
+
+
+
+#container {
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/*------------------- Title ---------------------------------------------*/
+
+.title {
+     grid-column: 1/4;
+     padding: 1em;
+     margin: 1em;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    margin : 1.25rem;
+    
+}
+
+
+/*------------------- index.html ----------------------------------------*/
+.div-menu {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*------------------- trombinoscope.html ---------------------------------*/
+
+.section-vue {
+    grid-column: 1/4;
+}
+
+.listes-residents, 
+.carte-resident {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.listes-residents {
+    justify-content: space-around;
+    
+}
+
+.carte-resident {
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+/*-----------------------------add.html--------------------------*/
+
+.home {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.btn-home {
+    margin: 0.40em;
+    padding: 0.25em;
+}
+
+.div-form-add {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-add-residents {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.75em;
+}
+
+
+
+.label-input-form {
+    margin: 0.2em;
+}
+
+.btn-submit {
+    margin: 1em;
+    padding: 0.40em;
+}
+
+/*-----------------edit resident ------------------------*/
+
+.section-vue-edit {
+    grid-column: 1/4;
+}
+
+.add-resident {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 2em;
+
+}
+.liste-residents-edit {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.carte-resident-edit {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte-resident-edit-unique {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.elem-edit {
+    margin:0.40em;
+} 
+
+.btn-edit {
+    margin: 0.40em;
+    padding: 0.25em;
+}
+table,
+td {
+    border: 1px solid #333;
+}
