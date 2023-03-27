@@ -1,12 +1,14 @@
 # tasks
 
 
-in front :
+1 - Import bdd.sql in phpMyAdmin 
 
-npm update
+2 - in front : npm update 
+  - in api : composer update 
 
-in api :
-
-composer update
-
-composer start
+3 - check : config.js in front 
+  - check : settings.php in api 
+  - check : Database.php in api 
+  
+4 - in api : composer start 
+  - in front npm start 
